@@ -1,7 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
-
+* {
+    box-sizing:border-box;
+    padding:25px;
+}
 *{
     font-family: 'Poppins', sans-serif;
+}
+
+ html {
+    background: url(images/pag1bkground.gif) no-repeat center center fixed;
+    background-size: cover;
 }
 
 .center {
@@ -15,10 +23,15 @@
     color:red;
 }
 
-bodsy {
-    
+.pane > .back {
+    position: absolute;
+    width: 100%; height: 100%;
+    top: auto; bottom: auto; left: auto; right: auto;
 }
-
+.pane > .cont {
+    position: relative;
+    z-index:10;
+}
 
 
 

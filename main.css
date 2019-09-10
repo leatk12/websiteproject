@@ -6,9 +6,37 @@
 *{
     font-family: 'Poppins', sans-serif;
 }
+.box {
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    padding:20px;
+    width:10%;
+    
 
- html {
-    background: url(images/pag1bkground.gif) no-repeat center center fixed;
+}
+.box1 { background:rgb(153, 102, 204)}
+.box2 {background:rgb(183, 104, 162)}
+.box3 {background:rgb(153, 102, 204)}
+.box4 {background:rgb(183, 104, 162)}
+.box5 {background:rgb(153, 102, 204)}
+.box6 {background:rgb(183, 104, 162)}
+.box7 {background:rgb(153, 102, 204)}
+.box8 {background:rgb(183, 104, 162)}
+.box9 {background:rgb(153, 102, 204)}
+.box10 {background:rgb(183, 104, 162)}
+
+
+.container {
+    display: flex;
+    min-height:20vh;
+    flex-wrap:wrap;
+    
+   
+
+}
+ .indexBackground {
+    background: url(images/space.gif) no-repeat center center fixed;
     background-size: cover;
 }
 
@@ -22,19 +50,45 @@
 .makeMeRed {
     color:red;
 }
-
-.pane > .back {
-    position: absolute;
-    width: 100%; height: 100%;
-    top: auto; bottom: auto; left: auto; right: auto;
+.makeMeWhite {
+    color:white;
 }
-.pane > .cont {
-    position: relative;
-    z-index:10;
+p {
+    background-color:rgba(183, 104, 162, 0.4)
 }
 
 
 
+h1 {
+    background-color: rgba(183, 104, 162,   0.4)
+}
+h2 {
+    background-color: rgba(183, 104, 162, 0.4)
+}
 
+ul {
+    background-color:rgba(183, 104, 162, 0.4)
+}
 
+.purpleBackground {
+
+    background-color: rgba(148,0,211, 0.4)
+}
+
+img {
+    max-width:30%;
+    height:auto;
+}
+ a:link {
+     color:white; /*unvisited link color*/
+ }
+ a:visited {
+     color:black /*Visited link*/
+ }
+ a:hover {
+     color:Green
+ }
+ a:active {
+     color:blue
+ }
 

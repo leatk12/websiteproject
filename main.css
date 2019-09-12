@@ -10,11 +10,37 @@
     color:white;
     font-size: 20px;
     text-align: center;
-    padding:20px;
+    padding:29px;
     width:20%;
     
 
 }
+
+.boxa {
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    padding:28px;
+    width:14.28%;
+}
+
+.boxb {
+    color:white;
+    font-size: 17px;
+    text-align: center;
+    padding:30px;
+    width:20%;
+}
+
+.boxc {
+    color:white;
+    font-size: 20px;
+    text-align: center;
+    padding:28px;
+    width:25%;
+}
+
+
 .box1 { background:rgb(153, 102, 204)}
 .box2 {background:rgb(183, 104, 162)}
 .box3 {background:rgb(153, 102, 204)}
@@ -32,9 +58,10 @@
     min-height:20vh;
     flex-wrap:wrap;
     
-   
-
 }
+
+
+
  .indexBackground {
     background: url(images/space.gif) no-repeat center center fixed;
     background-size: cover;
@@ -47,16 +74,22 @@
 .left {
     text-align:left;
 }
+.right {
+    text-align:right;
+}
+
 .makeMeRed {
     color:red;
 }
 .makeMeWhite {
     color:white;
 }
-p {
+/*p {
+    background-color:rgba(183, 104, 162, 0.4)
+}*/
+.backgroundColor {
     background-color:rgba(183, 104, 162, 0.4)
 }
-
 
 
 h1 {
@@ -86,9 +119,15 @@ img {
      color:black /*Visited link*/
  }
  a:hover {
-     color:Green
+     color:white
  }
  a:active {
      color:blue
  }
 
+ .centerImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+ }

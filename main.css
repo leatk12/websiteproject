@@ -3,6 +3,12 @@
     box-sizing:border-box;
     padding:25px;
 }
+html {
+    scroll-behavior: smooth
+}
+
+
+
 *{
     font-family: 'Poppins', sans-serif;
 }
@@ -20,13 +26,13 @@
     color:white;
     font-size: 20px;
     text-align: center;
-    padding:28px;
+    padding:24px;
     width:14.28%;
 }
 
 .boxb {
     color:white;
-    font-size: 17px;
+    font-size: 20px;
     text-align: center;
     padding:30px;
     width:20%;
@@ -116,7 +122,7 @@ img {
      color:white; /*unvisited link color*/
  }
  a:visited {
-     color:black /*Visited link*/
+     color:white /*Visited link*/
  }
  a:hover {
      color:white
